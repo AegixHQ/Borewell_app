@@ -1,0 +1,20 @@
+{
+  "name": "borewell-platform",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/web-app",
+    "apps/shared-ui"
+  ],
+  "scripts": {
+    "lint": "eslint apps/"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "eslint": "^9.39.5",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.26",
+    "globals": "^15.15.0"
+  }
+}
